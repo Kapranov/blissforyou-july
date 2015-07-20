@@ -1,0 +1,105 @@
+source 'https://rubygems.org'
+
+ruby '2.2.2'
+
+gem 'rails', '4.2.3'
+gem 'sqlite3'
+gem 'sass-rails'
+gem 'uglifier'
+gem 'coffee-rails'
+gem 'jquery-rails'
+gem 'jbuilder'
+gem 'figaro'
+
+group :development, :test do
+  gem 'byebug'
+  gem 'web-console',            '~> 2.2.1'
+end
+
+gem 'spree',                    '3.0.0'
+gem 'spree_gateway',            github: 'spree/spree_gateway',              branch: '3-0-stable'
+gem 'spree_auth_devise',        github: 'spree/spree_auth_devise',          branch: '3-0-stable'
+gem 'spree_i18n',               github: 'spree-contrib/spree_i18n',         branch: '3-0-stable'
+gem 'spree_product_zoom',       github: 'spree-contrib/spree_product_zoom', branch: '3-0-stable'
+gem 'spree_static_content',     '3.0.0'
+
+#
+# Makes the spree static content extension, multi lingual.
+# gem 'spree_static_content', github: 'spree/spree_static_content', branch: 'master'
+# gem 'spree_multilingual_static_content', :github => "azinazadi/spree-multilingual-static-content"
+#
+# Recently viewed products in Spree Commerce.
+# gem 'spree_recently_viewed', github: 'spree-contrib/spree_recently_viewed', branch: '3-0-stable'
+#
+# Rich text editor for Spree with Image and File uploading in-place.
+# gem 'spree_editor', github: 'spree-contrib/spree_editor', branch: '3-0-stable'
+#
+# Add commenting to orders / shipments / etc ... based completly of jderrett/spree-order-comments.
+# gem "spree_comments", github: 'spree-contrib/spree_comments', branch: '3-0-stable'
+#
+# Add social sharing buttons for your Spree products
+# gem 'spree_social_products', github: 'spree-contrib/spree_social_products', branch: 'master'
+#
+# Related products extension for Spree Commerce.
+# gem 'spree_related_products', github: 'spree-contrib/spree_related_products', branch: '3-0-stable'
+#
+# Provides UI to allow configuring multiple currencies in Spree.
+# gem 'spree_multi_currency', github: 'spree-contrib/spree_multi_currency', branch: '3-0-stable'
+#
+# Mail setting functionality extracted from Spree.
+# gem 'spree_mail_settings', github: 'spree-contrib/spree_mail_settings', branch: '3-0-stable'
+#
+# Email a friend functionality for Spree Commerce.
+# gem 'spree_email_to_friend', github: 'spree-contrib/spree_email_to_friend', branch: '3-0-stable'
+#
+# Create a PDF invoice for Spree orders.
+# gem 'spree_print_invoice', github: 'spree-contrib/spree_print_invoice', branch: '3-0-stable'
+#
+# Spree extension which supports sales volume based pricing (quantity discounts).
+# gem 'spree_volume_pricing', github: 'spree-contrib/spree_volume_pricing', branch: '3-0-stable'
+#
+# Adds oportunity to make bundle of products.
+# gem 'spree_product_assembly', github: 'spree-contrib/spree-product-assembly', branch: 'master'
+#
+# Sitemap Generator for Spree Commerce.
+# gem 'spree_sitemap', github: 'spree-contrib/spree_sitemap', branch: '3-0-stable'
+#
+# Spree Drop Shipping Extension.
+# gem 'spree_drop_ship', github: 'spree-contrib/spree_drop_ship', branch: 'master'
+#
+# Building block for spree social networking features (provides authentication and account linkage).
+# gem 'spree_social', github: 'spree-contrib/spree_social', branch: '3-0-stable'
+#
+# Wishlist extension for Spree Commerce.
+# gem 'spree_wishlist', github: 'spree-contrib/spree_wishlist', branch: '3-0-stable'
+# gem 'spree_email_to_friend', github: 'spree-contrib/spree_email_to_friend', branch: '3-0-stable'
+#
+# This repo, you can expect to find some examples of how to interact with Spree's API.
+# https://github.com/spree-contrib/spree_api_examples
+#
+# Adds Handling Fee functionality to Spree.
+# gem 'spree_handling_fees', github: 'spree-contrib/spree_handling_fees', branch: '3-0-stable'
+#
+# Add a slider to the homepage of your Spree site, and manage the slideshow from within the Admin panel.
+# gem 'spree_slider', github: 'spree-contrib/spree_slider', branch: '3-0-stable'
+#
+# Straightforward review/rating functionality.
+# gem 'spree_reviews', github: 'spree-contrib/spree_reviews', branch: '3-0-stable'
+#
+# A Spree extension to enable downloadable products.
+# gem 'spree_digital', github: 'halo/spree_digital', branch: '3-0-stable'
+#
+# SpreeFancy is a responsive theme for Spree Commerce.
+# gem 'spree_fancy', github: 'spree/spree_fancy',branch: 'master'
+#
+# Price book functionality for running sales, role based, country based pricing etc.
+# gem 'spree_price_books', github: 'spree-contrib/spree_price_books', branch: '3-0-stable'
+#
+# Admin UI to allow the removal of sample / test data.
+# gem 'spree_clean', git: "git://github.com/spree/spree_clean.git"
+#
+# Alternative dashboard overview for Spree.
+# gem 'spree_simple_dash', :git => 'git@github.com:spree/spree_simple_dash.git'
+#
+# https://github.com/spree-contrib/spree_content
+#
